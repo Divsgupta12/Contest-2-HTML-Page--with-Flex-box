@@ -1,0 +1,75 @@
+body{
+    padding: 0px;
+    margin: 0px;;
+}
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    color: white;
+
+}
+.company{
+    padding: 60px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: inline-end;
+  }
+.nav-item li{
+    display: inline;
+}
+.nav-item .item{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.box-1{
+    display: flex;
+    width: 100%;
+}
+.info{
+    position: absolute;
+    left: 0px;
+    padding: 40px;
+    margin: 20px;
+    width: 50%;
+    
+}
+.img{
+    position: absolute;
+    right: 0px;
+    padding: 40px;
+    margin: 20px;
+}
+.flex-box{
+    display: flex;
+    width: 90vw;
+    flex-wrap: wrap;
+    
+}
+.flexhead{
+    padding-top: 600px;
+    padding-left: 40px;
+}
+.flex-box .images{
+    height: 300px;
+    width: 26vw;
+    padding-left: 20px;
+    margin: 40px 20px;
+}
+.flex-box img{
+    height: 300px;
+    width: 25vw;
+}
+.learnmore{
+    padding: 15px;
+    background-color: black;
+    color: white;
+}
